@@ -22,9 +22,6 @@ var/
 .installed.cfg
 *.egg
 
-# Environment variables
-.env
-
 # IDE
 .idea/
 .vscode/
