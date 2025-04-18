@@ -1,0 +1,44 @@
+{
+  "qa_pairs": [
+    {
+      "question": "Koji su rokovi za prijavu ispita?",
+      "answer": "Rokovi za prijavu ispita su najkasnije 3 dana prije termina ispita putem studomata."
+    },
+    {
+      "question": "Kada počinje akademska godina?",
+      "answer": "Akademska godina 2024/2025 počinje 1. listopada 2024. godine."
+    },
+    {
+      "question": "Koliko iznose ECTS bodovi za završetak studija?",
+      "answer": "Za završetak preddiplomskog studija potrebno je ostvariti 180 ECTS bodova, a za diplomski studij dodatnih 120 ECTS bodova."
+    },
+    {
+      "question": "Kako mogu kontaktirati studentsku službu?",
+      "answer": "Studentsku službu možete kontaktirati putem emaila studentska@fakultet.hr ili telefonom na broj 01/234-5678 radnim danom od 10-14h."
+    },
+    {
+      "question": "Koji su uvjeti za upis više godine?",
+      "answer": "Za upis više godine studija potrebno je ostvariti minimalno 50 ECTS bodova iz tekuće akademske godine."
+    },
+    {
+      "question": "Gdje mogu pronaći raspored predavanja?",
+      "answer": "Raspored predavanja možete pronaći na službenoj web stranici fakulteta u sekciji 'Nastava' ili na oglasnoj ploči fakulteta."
+    },
+    {
+      "question": "Kako se prijavljuje završni/diplomski rad?",
+      "answer": "Završni/diplomski rad prijavljuje se u dogovoru s mentorom ispunjavanjem obrasca dostupnog na web stranici fakulteta i predajom u studentsku službu."
+    },
+    {
+      "question": "Koji su načini plaćanja školarine?",
+      "answer": "Školarinu je moguće platiti jednokratno uz 5% popusta ili u 3 rate prema terminima navedenim na web stranici fakulteta."
+    },
+    {
+      "question": "Kako dobiti potvrdu o studiranju?",
+      "answer": "Potvrdu o studiranju možete dobiti u studentskoj službi uz predočenje indeksa ili je možete samostalno ispisati putem studomata."
+    },
+    {
+      "question": "Postoje li mogućnosti za studentsku razmjenu?",
+      "answer": "Da, fakultet sudjeluje u Erasmus+ programu te ima bilateralne ugovore s brojnim europskim sveučilištima. Više informacija možete dobiti u uredu za međunarodnu suradnju."
+    }
+  ]
+}
