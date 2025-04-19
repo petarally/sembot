@@ -73,7 +73,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const messageContent = document.createElement("div");
     messageContent.className = "message-content";
-    messageContent.textContent = content;
+
+    // Format URLs, emails and phone numbers as links
+    if (sender === "bot") {
+      // Format links (http/https URLs)
+      content = content.replace(
+        /(https?:\/\/[^\s]+)/g,
+        '<a href="$1" target="_blank" rel="noopener">$1</a>'
+      );
+
+      // Format email addresses
+      content = content.replace(
+        /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/g,
+        '<a href="mailto:$1">$1</a>'
+      );
+
+      // Format phone numbers (simple pattern)
+      content = content.replace(
+        /(\+\d{1,3}\s?)?(\(?\d{3,5}\)?[\s.-]?\d{3}[\s.-]?\d{3,4})/g,
+        '<a href="tel:$1$2">$&</a>'
+      );
+
+      // Use innerHTML for bot messages with formatted links
+      messageContent.innerHTML = content;
+    } else {
+      // Use textContent for user messages (safer)
+      messageContent.textContent = content;
+    }
 
     messageDiv.appendChild(messageContent);
     chatMessages.appendChild(messageDiv);

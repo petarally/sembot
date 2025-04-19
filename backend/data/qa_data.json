@@ -6,7 +6,7 @@
     },
     {
       "question": "Kada počinje akademska godina?",
-      "answer": "Akademska godina 2024/2025 počinje 1. listopada 2024. godine."
+      "answer": "Za detaljni pregled svih važnih datuma i događaja akademske godine, pogledajte akademski kalendar na: https://www.unipu.hr/akademski_kalendar"
     },
     {
       "question": "Koliko iznose ECTS bodovi za završetak studija?",
@@ -14,7 +14,7 @@
     },
     {
       "question": "Kako mogu kontaktirati studentsku službu?",
-      "answer": "Studentsku službu možete kontaktirati putem emaila studentska@fakultet.hr ili telefonom na broj 01/234-5678 radnim danom od 10-14h."
+      "answer": "Studentsku službu možete kontaktirati putem emaila ured-za-studente@unipu.hr ili telefonom na broj +385 52 377 000 radnim danom od 10-14h."
     },
     {
       "question": "Koji su uvjeti za upis više godine?",
@@ -39,6 +39,66 @@
     {
       "question": "Postoje li mogućnosti za studentsku razmjenu?",
       "answer": "Da, fakultet sudjeluje u Erasmus+ programu te ima bilateralne ugovore s brojnim europskim sveučilištima. Više informacija možete dobiti u uredu za međunarodnu suradnju."
+    },
+    {
+      "question": "Postoje li mogućnosti za studentsku razmjenu?",
+      "answer": "Da, fakultet sudjeluje u Erasmus+ programu te ima bilateralne ugovore s brojnim europskim sveučilištima. Više informacija možete dobiti u uredu za međunarodnu suradnju."
+    },
+    {
+      "question": "Koje je službeno ime Sveučilišta u Puli?",
+      "answer": "Službeno ime je Sveučilište Jurja Dobrile u Puli."
+    },
+    {
+      "question": "Gdje se nalazi Sveučilište Jurja Dobrile?",
+      "answer": "Sveučilište Jurja Dobrile nalazi se na adresi Zagrebačka 30, 52100 Pula, Hrvatska."
+    },
+    {
+      "question": "Kako mogu kontaktirati Sveučilište u Puli?",
+      "answer": "Sveučilište možete kontaktirati telefonom na +385 52 377 000, faxom na +385 216 416 ili e-mailom na ured@unipu.hr."
+    },
+    {
+      "question": "Koja je web stranica Sveučilišta Jurja Dobrile?",
+      "answer": "Službena web stranica Sveučilišta je www.unipu.hr."
+    },
+    {
+      "question": "Kako mogu kontaktirati Ured za studente?",
+      "answer": "Ured za studente možete kontaktirati e-mailom na ured-za-studente@unipu.hr ili telefonom na 052/377-006 ili 052/377-010."
+    },
+    {
+      "question": "Gdje mogu pronaći akademski kalendar?",
+      "answer": "Akademski kalendar možete pronaći na službenim stranicama Sveučilišta: https://www.unipu.hr/akademski_kalendar."
+    },
+    {
+      "question": "Koje fakultete ima Sveučilište Jurja Dobrile u Puli?",
+      "answer": "Sveučilište ima nekoliko fakulteta uključujući: Fakultet ekonomije i turizma, Fakultet informatike, Fakultet prirodnih znanosti, Fakultet za odgojne i obrazovne znanosti, Filozofski fakultet, Medicinski fakultet, Muzičku akademiju, Tehnički fakultet te studij Dizajna i audiovizualnih komunikacija."
+    },
+    {
+      "question": "Koji su uvjeti za upis na Fakultet informatike?",
+      "answer": "Za upis na Fakultet informatike potrebno je minimalno 60% iz matematike na državnoj maturi. Vrednuju se rezultati iz matematike, informatike i engleskog jezika."
+    },
+    {
+      "question": "Koji studijski programi se nude na Medicinskom fakultetu?",
+      "answer": "Medicinski fakultet nudi Integrirani preddiplomski i diplomski sveučilišni studij Medicine te Diplomski sveučilišni studij Sestrinstvo."
+    },
+    {
+      "question": "Kako se mogu prijaviti za studentsku anketu?",
+      "answer": "Jedinstvena studentska anketa dostupna je na: https://limesurvey.srce.hr/299119?lang=hr."
+    },
+    {
+      "question": "Koji su studijski programi na Fakultetu ekonomije i turizma?",
+      "answer": "Fakultet ekonomije i turizma nudi programe: Poslovna ekonomija, Ekonomija, Marketing, Financijski management i Turizam."
+    },
+    {
+      "question": "Kakve su mogućnosti za karijeru nakon Fakulteta informatike?",
+      "answer": "Diplomirani studenti Fakulteta informatike rade kao programeri, sistemski inženjeri, podatkovni znanstvenici, stručnjaci za sigurnost ili IT konzultanti."
+    },
+    {
+      "question": "Koji su uvjeti za upis na Medicinski fakultet?",
+      "answer": "Za upis na Medicinski fakultet potrebno je minimalno 70% iz biologije i kemije na državnoj maturi. Provodi se i dodatni prijemni ispit."
+    },
+    {
+      "question": "Koji su studijski programi dostupni na Muzičkoj akademiji?",
+      "answer": "Muzička akademija nudi programe: Glazbena pedagogija, Klasična harmonika, Solo pjevanje, Klavir i Gitara."
     }
   ]
 }
