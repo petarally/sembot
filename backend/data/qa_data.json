@@ -41,10 +41,6 @@
       "answer": "Da, fakultet sudjeluje u Erasmus+ programu te ima bilateralne ugovore s brojnim europskim sveučilištima. Više informacija možete dobiti u uredu za međunarodnu suradnju."
     },
     {
-      "question": "Postoje li mogućnosti za studentsku razmjenu?",
-      "answer": "Da, fakultet sudjeluje u Erasmus+ programu te ima bilateralne ugovore s brojnim europskim sveučilištima. Više informacija možete dobiti u uredu za međunarodnu suradnju."
-    },
-    {
       "question": "Koje je službeno ime Sveučilišta u Puli?",
       "answer": "Službeno ime je Sveučilište Jurja Dobrile u Puli."
     },
@@ -99,6 +95,46 @@
     {
       "question": "Koji su studijski programi dostupni na Muzičkoj akademiji?",
       "answer": "Muzička akademija nudi programe: Glazbena pedagogija, Klasična harmonika, Solo pjevanje, Klavir i Gitara."
+    },
+    {
+      "question": "Koji su uvjeti za upis u prvu godinu diplomskih studija?",
+      "answer": "Za upis u prvu godinu diplomskih studija potrebno je imati završen odgovarajući preddiplomski studij te ispuniti sve uvjete navedene u natječaju za upis."
+    },
+    {
+      "question": "Kako se prijaviti za online upise?",
+      "answer": "Prijava za online upise vrši se putem službene aplikacije Sveučilišta, gdje je potrebno unijeti osobne podatke i priložiti traženu dokumentaciju."
+    },
+    {
+      "question": "Koji su rokovi za upis u akademsku godinu 2024./2025.?",
+      "answer": "Rokovi za upis objavljuju se na službenim stranicama Sveučilišta i razlikuju se ovisno o studijskom programu i razini studija. Preporučuje se redovito pratiti obavijesti na web stranici."
+    },
+    {
+      "question": "Kako mogu saznati više o studijskim programima koje nudi Sveučilište?",
+      "answer": "Detaljne informacije o studijskim programima dostupne su na službenoj web stranici Sveučilišta, gdje su navedeni svi prijediplomski, diplomski i poslijediplomski programi."
+    },
+    {
+      "question": "Postoje li mogućnosti obročne otplate školarine?",
+      "answer": "Da, Sveučilište omogućuje obročnu otplatu školarine. Detalji o uvjetima i načinu plaćanja dostupni su u rubrici 'Školarine i informacije o obročnoj otplati' na službenoj web stranici."
+    },
+    {
+      "question": "Gdje mogu pronaći informacije o studentskom smještaju?",
+      "answer": "Informacije o studentskom smještaju, uključujući studentski dom i druge opcije, dostupne su na službenoj web stranici Sveučilišta u rubrici 'Studentski dom'."
+    },
+    {
+      "question": "Kako se mogu prijaviti za stipendiju?",
+      "answer": "Prijave za stipendije objavljuju se na službenim stranicama Sveučilišta. Potrebno je pratiti obavijesti i slijediti upute navedene u natječajima."
+    },
+    {
+      "question": "Koje su mogućnosti međunarodne razmjene za studente?",
+      "answer": "Sveučilište nudi različite programe međunarodne razmjene, uključujući Erasmus+ i CEEPUS. Detalji o prijavi i uvjetima dostupni su u rubrici 'Međunarodna suradnja' na web stranici."
+    },
+    {
+      "question": "Kako mogu pristupiti e-učenju?",
+      "answer": "Platforma za e-učenje dostupna je putem poveznice na službenoj web stranici Sveučilišta. Potrebno je koristiti dodijeljene korisničke podatke za pristup."
+    },
+    {
+      "question": "Što trebam učiniti ako želim prekinuti studij?",
+      "answer": "U slučaju prekida studija, potrebno je podnijeti zahtjev za ispisivanje iz studija nadležnoj studentskoj službi te vratiti sve posuđene materijale i podmiriti eventualne obveze prema Sveučilištu."
     }
   ]
 }
