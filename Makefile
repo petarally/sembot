@@ -1,12 +1,19 @@
 .PHONY: setup run-backend run-frontend run clean
 
+# Detect operating system
+ifeq ($(OS),Windows_NT)
+    VENV_BIN = Scripts
+else
+    VENV_BIN = bin
+endif
+
 # Settings for virtual environment
 VENV_DIR = venv
-VENV_PYTHON = $(VENV_DIR)/Scripts/python
-VENV_PIP = $(VENV_DIR)/Scripts/pip
+VENV_PYTHON = $(VENV_DIR)/$(VENV_BIN)/python
+VENV_PIP = $(VENV_DIR)/$(VENV_BIN)/pip
 
 # System Python for setup
-PYTHON = python
+PYTHON = python3
 PIP = pip
 
 # Postavljanje virtualnog okruženja
@@ -25,8 +32,8 @@ run-frontend:
 # Pokretanje i backend i frontend (u paraleli)
 run:
 	@echo "Pokretanje backend i frontend servera..."
-	@bash -c "./$(VENV_DIR)/Scripts/python -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000 &"
-	@bash -c "cd frontend && ../$(VENV_DIR)/Scripts/python -m http.server 8080 &"
+	@bash -c "./$(VENV_PYTHON) -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000 &"
+	@bash -c "cd frontend && ../$(VENV_PYTHON) -m http.server 8080 &"
 	@echo "Serveri pokrenuti. Pritisnite Ctrl+C za zaustavljanje."
 	@bash -c "read -p ''"
 
