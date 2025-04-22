@@ -3,9 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const userInput = document.getElementById("userInput");
   const chatMessages = document.getElementById("chatMessages");
   const suggestionButtons = document.querySelectorAll(".suggestion-btn");
+  const suggestionsContainer = document.querySelector(".suggestions");
 
   // Backend API URL
   const API_URL = "http://localhost:8000/api/chat";
+
+  // Flag to track if first question was asked
+  let firstQuestionAsked = false;
 
   // Slušač događaja za slanje poruke
   chatForm.addEventListener("submit", function (e) {
@@ -16,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Slušači događaja za gumbe s prijedlozima
   suggestionButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      sendMessage(this.textContent);
+      sendMessage(this.textContent.trim());
     });
   });
 
@@ -52,6 +56,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Dodaj odgovor bota
         addMessage(data.answer, "bot");
+
+        // Update first question flag
+        firstQuestionAsked = true;
+
+        // Update suggested questions if available
+        if (data.suggested_questions && data.suggested_questions.length > 0) {
+          updateSuggestedQuestions(data.suggested_questions);
+        }
       })
       .catch((error) => {
         // Ukloni indikator učitavanja
@@ -64,6 +76,35 @@ document.addEventListener("DOMContentLoaded", function () {
         );
         console.error("Error:", error);
       });
+  }
+
+  // Funkcija za ažuriranje prijedloga pitanja
+  function updateSuggestedQuestions(questions) {
+    // Promijeni naslov iz "Popularna pitanja" u "Predložena pitanja"
+    const suggestionsTitle = suggestionsContainer.querySelector("h3");
+    suggestionsTitle.textContent = "Predložena pitanja:";
+
+    // Dohvati kontejner za gumbe
+    const buttonContainer = suggestionsContainer.querySelector(
+      ".suggestion-buttons"
+    );
+
+    // Očisti postojeće gumbe
+    buttonContainer.innerHTML = "";
+
+    // Dodaj nove gumbe za svako predloženo pitanje
+    questions.forEach((question) => {
+      const button = document.createElement("button");
+      button.className = "suggestion-btn";
+      button.textContent = question;
+
+      // Dodaj event listener za novo pitanje
+      button.addEventListener("click", function () {
+        sendMessage(this.textContent.trim());
+      });
+
+      buttonContainer.appendChild(button);
+    });
   }
 
   // Funkcija za dodavanje poruke u chat

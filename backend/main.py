@@ -24,15 +24,25 @@ chatbot_router = ChatbotRouter()
 class ChatRequest(BaseModel):
     query: str
 
-# Model za odgovor chatbota
+# Updated response model to support suggested questions
 class ChatResponse(BaseModel):
     answer: str
+    suggested_questions: list[str] = []
 
-# API endpoint za chatbot
+# API endpoint for chatbot
 @app.post("/api/chat", response_model=ChatResponse)
 async def chat_endpoint(request: ChatRequest):
     """Endpoint za chatbot upite"""
     response = await chatbot_router.get_response(request.query)
+    
+    # Check if response is a dict with the new format
+    if isinstance(response, dict) and "text" in response:
+        return ChatResponse(
+            answer=response["text"],
+            suggested_questions=response.get("suggested_questions", [])
+        )
+    
+    # Legacy support for string responses
     return ChatResponse(answer=response)
 
 # Root endpoint za provjeru da API radi
